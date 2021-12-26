@@ -62,7 +62,7 @@ html{
 
 
 .slider {   
-    background: url('../assets/img/slider.JPG')  top center / cover no-repeat; 
+    background: url(img/slider.JPG)  top center / cover no-repeat; 
     padding-top: 50%;
     position: relative;
 }
