@@ -45,6 +45,7 @@ html{
 #nav a {
     display: inline;
     text-decoration: none;
+    color: black;
     font-size: 18px;
     letter-spacing: 4px;
     padding: 10px 16px;
@@ -60,8 +61,8 @@ html{
 }
 
 
-.slider {
-    background: url('img/slider.jpg')  top center / cover no-repeat; 
+.slider {   
+    background: url('../assets/img/slider.jpg')  top center / cover no-repeat; 
     padding-top: 50%;
     position: relative;
 }
