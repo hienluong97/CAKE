@@ -1,0 +1,44 @@
+
+/*PC*/
+@media (min-width: 993px ) {    
+}
+
+
+/*tablet*/
+
+@media (min-width: 600px) and (max-width: 992px) {
+    .content-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;        
+      }
+
+     .content-menu .menu {
+         width: 100%;   
+      }
+    }
+
+/*Mobile*/
+
+@media (max-width: 599px){
+
+  #nav .menu_box {
+      display: none;
+  }
+  .content-about .img {
+        display: none;   
+   } 
+   .content-about .about {
+    width: 100%;
+  } 
+  .content-menu {
+    display: flex;
+    flex-direction: column;       
+  }
+
+  .content-menu .menu {
+     width: 100%;   
+  }
+  }
+
+  
